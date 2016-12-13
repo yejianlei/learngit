@@ -1,0 +1,105 @@
+.main .staff-message{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+}
+.staff-message .title{
+	font-size: 24px;
+	height:42px;
+	line-height: 42px;
+	color: #47a2a7;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 0 30px;
+}
+.staff-message ul{
+	font-size: 18px;
+	width: 100%;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.staff-message ul li{
+	float: left;
+	padding-left: 110px;
+	text-align: left;
+
+}
+.staff-message  li p{
+	height: 30px;
+	line-height: 30px;
+	color: #999;
+
+}
+
+.staff-message li .show{
+	color:#000;
+}
+
+.staff-message .change-btn{
+	color: #47a2a7;
+	background-color:#fff;
+	border: 0;
+	outline: 0;
+	border: 1px solid #47a2a7;
+	border-radius: 3px;
+	padding:6px;
+	margin-top: 8px;
+
+}
+.uers-num{
+	width: 70%;
+	padding:10px 15%;
+}
+.uers-num div{
+	width: 150px;
+	height: 120px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	background-color: #47a2a7;
+	display: inline-block;
+	padding: 15px 0;
+	margin:0 60px;
+	border-radius: 4px;
+}
+.uers-num .num{
+	font-size: 60px;
+	margin-bottom: 30px;
+
+}
+.complete .c-title{
+	font-size: 18px;
+	height:42px;
+	line-height: 42px;
+	border-bottom: 1px solid #e2e2e2;
+	padding-left: 110px;
+}
+.complete .note{
+	color: #999999;
+	font-size: 18px;
+	height:42px;
+	line-height: 42px;
+	padding-left: 110px;
+}
+.layui-input-block select{
+	font-size: 18px;
+	height: 30px;
+	width: 90px;
+	color: #47a2a7;
+	border-color: #47a2a7;
+	margin-right: 30px;
+}
+.complete .map{
+	padding:20px 110px;
+}
+.map img{
+	width: 100%;
+	height: 350px;
+}
+.map a{
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+}

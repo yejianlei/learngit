@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>信息详情</title>
+    <link rel="stylesheet" href="../../js/plugins/layui/css/layui.css">
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/staff-message.css">
+</head>
+<body>
+    <div class="header-hidden"></div>
+    <header>
+          <img src="../../image/logo.jpg" alt=""/>
+        <div class="tl-name">加法科技</div>
+       <div class="nav-list">
+            <ul class="layui-nav">
+              <li class="layui-nav-item">
+                <a href="javascript:;" style="background-color: #4fadb1;color: #fff;">员工管理</a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">邀请管理</a></dd>
+                  <dd><a href="">后台模版</a></dd>
+                  <dd><a href="">电商平台</a></dd>
+                </dl>
+              </li>
+               <li class="layui-nav-item">
+                <a href="javascript:;">邀请管理</a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">移动模块</a></dd>
+                  <dd><a href="">后台模版</a></dd>
+                  <dd><a href="">电商平台</a></dd>
+                </dl>
+              </li>
+               <li class="layui-nav-item">
+                <a href="javascript:;" >区域管理</a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">移动模块</a></dd>
+                  <dd><a href="">后台模版</a></dd>
+                  <dd><a href="">电商平台</a></dd>
+                </dl>
+              </li>
+               <li class="layui-nav-item">
+                <a href="javascript:;">收益管理</a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">移动模块</a></dd>
+                  <dd><a href="">后台模版</a></dd>
+                  <dd><a href="">电商平台</a></dd>
+                </dl>
+              </li>  
+            </ul>
+        </div>
+        <div class="tl-user">
+           <ul class="layui-nav">
+              <li class="layui-nav-item">
+                <a href="javascript:;">张三</a>
+                <dl class="layui-nav-child">
+                  <dd><a href="">李四</a></dd>
+                  <dd><a href="">王大拿</a></dd>
+                </dl>
+             </li>
+            </ul>
+        </div>
+    </header>
+    <div class="sidebar">
+        <ul class="layui-nav layui-nav-tree" lay-filter="demo">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a href="javascript:;">员工管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="javascript:;">员工列表</a></dd>
+                    <dd><a href="javascript:;">员工添加</a></dd>
+                    <dd><a href="javascript:;">通知列表</a></dd>
+                    <dd><a href="javascript:;">发布通知</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">邀请管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">移动模块</a></dd>
+                    <dd><a href="">后台模版</a></dd>
+                    <dd><a href="">电商平台</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">区域管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">移动模块</a></dd>
+                    <dd><a href="">后台模版</a></dd>
+                    <dd><a href="">电商平台</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">收益管理</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">移动模块</a></dd>
+                    <dd><a href="">后台模版</a></dd>
+                    <dd><a href="">电商平台</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="staff-message">
+            <p class= "title">信息详情</p>
+            <ul>
+                <li>
+                    <p class="name"><span>姓名：</span><span class="show">张三</span></p>
+                    <p class="num"><span>编号：</span><span class="show">a67sdj</span></p>
+                </li>
+                <li>
+                    <p class="phone"><span>电话号码：</span><span class="show">13856545333</span></p>
+                    <p class="state"><span>状态：</span><span class="show">未激活</span></p>
+                </li>
+                <li>
+                    <button class="change-btn"><a href="">信息修改</a></button>
+                </li>
+           </ul>
+           <div class="uers-num">
+               <div>
+               <p class="num">278</p>
+               <p>邀请的商家数量</p>
+               </div>
+               <div>
+               <p class="num">278</p>
+               <p>邀请的用户数量</p>
+               </div>
+           </div>
+           <div class="complete">
+                <p class="c-title">完成绩效</p>
+                <p class="note">请选择日期</p>
+                <div class="layui-form-item">
+                    <div class="layui-input-block">
+                      <select name="interest" lay-filter="aihao">
+                        <option value=""></option>
+                        <option value="0">2016</option>
+                        <option value="1" selected="">2015</option>
+                        <option value="2">2014</option>
+                        <option value="3">2013</option>
+                        <option value="4">2012</option>
+                      </select>
+                      <select name="interest" lay-filter="aihao">
+                        <option value=""></option>
+                        <option value="0">1</option>
+                        <option value="1" selected="">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                      </select>
+                      <select name="interest" lay-filter="aihao">
+                        <option value=""></option>
+                        <option value="0">1</option>
+                        <option value="1" selected="">2</option>
+                        <option value="2">3</option>
+                        <option value="3">4</option>
+                        <option value="4">5</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="../../image/map.jpg" >
+                    <a href="#">点击查看完整地图</a>
+                </div>
+
+           </div>
+        </div>
+    </div>
+    </div>
+    <script type="text/javascript" src="../../js/jquery.js"></script>
+    <script type="text/javascript" src="../../js/plugins/layui/layui.js"></script>
+    <script>
+        layui.use('element', function(){
+            var element = layui.element(); //导航的hover效果、二级菜单等功能，需要依赖element模块
+
+            //监听导航点击
+            element.on('nav(demo)', function(elem){
+                //console.log(elem)
+                layer.msg(elem.text());
+            });
+        });
+    </script>
+</body>
+</html>
