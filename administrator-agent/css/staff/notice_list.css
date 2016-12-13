@@ -1,0 +1,34 @@
+.main .notice-lists{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+.notice-lists .news{
+	background-color: #fff;
+	width: 100%;
+	height: auto;
+	margin-bottom: 38px;
+	box-shadow: 0 5px 6px rgba(0,0,0,0.1);
+}
+.news .title{
+	font-size: 24px;
+	height: 90px;
+	line-height: 90px;
+	color: #555555;
+	border-bottom: 1px solid #e2e2e2;
+	padding: 0 48px;
+
+}
+.news .time{
+	font-size: 16px;
+	height: 42px;
+	line-height: 42px;
+	color: #bebebe;
+	padding: 0 48px;
+}
+.news .content{
+	font-size: 16px;
+	line-height: 22px;
+	color: #666666;
+	padding: 10px  48px 36px  48px;
+}

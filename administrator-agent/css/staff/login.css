@@ -1,0 +1,201 @@
+body,html{
+	background-color: #E2EBF0;
+}
+.main{
+	width: 900px;
+	height: 600px;
+	background-color: #fff;
+	margin: 100px auto 0 auto;
+	box-shadow: 0 5px 10px rgba(79,173,177,0.3); 
+}
+.shadow{
+	width: 900px;
+	height:auto;
+	margin: 0 auto;
+}
+.shadow img{
+	width: 100%;
+}
+.left{
+	width: 500px;
+	height: 100%;
+	float: left;
+}
+.right{
+	width: 400px;
+	height: 100%;
+	float: left;
+	background-color: #4FADB1;
+}
+.right > img{
+	width: 100%;
+	height: 100%;
+}
+.authcode .normal-content,.normal .authcode-content{
+	display: none;
+}
+.normal .normal-content{
+	display: block;
+}
+.authcode,.authcode-content{
+	display: block;
+}
+.content .form-content{
+	width: 400px;
+	height: 500px;
+	margin: 50px auto 0 auto;
+}
+.form-content > .title{
+	width: 100%;
+	display: block;
+	font-size: 30px;
+	color: #4FADB1;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+}
+.form-input{
+	width: 90%;
+	margin: 0 auto 20px;
+	height: 50px;
+	border-bottom: 1px solid #ccc;
+	transition: 0.2s;
+}
+.normal-content .form-input .input-left{
+	width: 40px;
+	height: 50px;
+	font-size: 35px;
+	line-height: 50px;
+	color: #999;
+	float: left;
+}
+.normal-content .form-input .input{
+	float: left;
+	width: calc(100% - 50px);
+	height: 100%;
+	float: left;
+}
+.normal-content .form-input .input input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 20px;
+	color: #aaa;
+}
+.normal-content .forget{
+	width: 90%;
+	margin: 0 auto;
+	text-align: right;
+}
+.forget a{
+	color: #4FADB1;
+}
+.forget a:hover{
+	text-decoration: underline;
+}
+.button-login,.button-go-authcode{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	margin-top: 30px;
+}
+.button-login > button{
+	width: 50%;
+	height: 100%;
+	border: none;
+	background-color: #4FADB1;
+	font-size: 16px;
+	color: #fff;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.button-go-authcode > button{
+	width: 50%;
+	height: 100%;
+	border: none;
+	background-color: #fff;
+	font-size: 16px;
+	color: #4FADB1;
+	border: 1px solid #4FADB1;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+button{
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.5;
+}
+.authcode-content .form-input .input-left{
+	width: 60px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 50px;
+	color: #4FADB1;
+	float: left;
+}
+.authcode-content .form-input .input{
+	float: left;
+	width: calc(100% - 160px);
+	height: 100%;
+	float: left;
+}
+.authcode-content .form-input .input-right{
+	width: 100px;
+	height: 100%;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #4FADB1;
+	cursor: pointer;
+}
+.authcode-content .form-input .input-right.disabled{
+	color: #ccc;
+}
+.authcode-content .form-input .input input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	font-size: 18px;
+	color: #aaa;
+}
+.authcode-content .forget{
+	width: 90%;
+	margin: 0 auto;
+	text-align: right;
+}
+.button-login,.button-go-normal{
+	width: 100%;
+	height: 45px;
+	text-align: center;
+	margin-top: 30px;
+}
+.button-login > button{
+	width: 50%;
+	height: 100%;
+	border: none;
+	background-color: #4FADB1;
+	font-size: 16px;
+	color: #fff;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+.button-go-authcode > button{
+	width: 50%;
+	height: 100%;
+	border: none;
+	background-color: #fff;
+	font-size: 16px;
+	color: #4FADB1;
+	border: 1px solid #4FADB1;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
